@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Mike",
+    "do_not_buy_for": "Tricia, Kathleen, Sean, Mike"
+  },
+  {
+    "name": "Tricia",
+    "do_not_buy_for": "Kathleen, Sean, Mike, Tricia"
+  },
+  {
+    "name": "Jeannette",
+    "do_not_buy_for": "Dennis, Hannah, Phillip, Jeannette"
+  },
+  {
+    "name": "Dennis",
+    "do_not_buy_for": "Jeannette, Hannah, Phillip, Dennis"
+  },
+  {
+    "name": "Mom",
+    "do_not_buy_for": "Dad"
+  },
+  {
+    "name": "Dad",
+    "do_not_buy_for": "Mom"
+  },
+  {
+    "name": "Phillip",
+    "do_not_buy_for": "Hannah, Jeannette, Dennis, Phillip"
+  },
+  {
+    "name": "Hannah",
+    "do_not_buy_for": "Jeannette, Dennis, Phillip, Hannah"
+  },
+  {
+    "name": "Theresa",
+    "do_not_buy_for": "Mom, Dad, Michael, Theresa"
+  },
+  {
+    "name": "Buddy",
+    "do_not_buy_for": "Brenna, Buddy"
+  },
+  {
+    "name": "Brenna",
+    "do_not_buy_for": "Buddy, Brenna"
+  },
+  {
+    "name": "Cathy",
+    "do_not_buy_for": "Scott, Sarah, Cathy"
+  },
+  {
+    "name": "Scott",
+    "do_not_buy_for": "Cathy, Scott, Sarah"
+  },
+  {
+    "name": "Michael",
+    "do_not_buy_for": "Mom, Dad, Theresa"
+  },
+  {
+    "name": "Steven",
+    "do_not_buy_for": "Heather, Steven"
+  },
+  {
+    "name": "Heather",
+    "do_not_buy_for": "Steven, Heather"
+  },
+  {
+    "name": "Kathleen",
+    "do_not_buy_for": "Sean, Mike, Tricia, Kathleen"
+  },
+  {
+    "name": "Sean",
+    "do_not_buy_for": "Kathleen, Tricia, Mike, Sean"
+  }
+]
