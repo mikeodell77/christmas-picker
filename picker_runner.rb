@@ -59,6 +59,6 @@ class PickerRunner
 end
 
 picker = PickerRunner.new(path_to_file: './family.json')
-5.times do
+1.times do
   picker.run
 end
