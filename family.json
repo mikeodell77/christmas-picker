@@ -65,10 +65,14 @@
   },
   {
     "name": "Kathleen",
-    "do_not_buy_for": "Sean, Mike, Tricia, Kathleen"
+    "do_not_buy_for": "Sean, Mike, Tricia, Kathleen, Brandon"
   },
   {
     "name": "Sean",
     "do_not_buy_for": "Kathleen, Tricia, Mike, Sean"
+  },
+  {
+    "name": "Brandon",
+    "do_not_buy_for": "Brandon, Kathleen, Tricia, Mike, Sean"
   }
 ]

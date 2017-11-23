@@ -26,19 +26,15 @@ class PickerRunner
   end
 
   def random_selection(person_buying)
-    @count += 1
     begin
       random_person = @dynamic_people_pool.sample
 
-      if random_person.name == person_buying.name
+      if !person_buying.can_buy_for?(name: random_person.name)
         random_selection(person_buying)
       else
-        @count = 0
         @dynamic_people_pool.delete(random_person)
+        return random_person
       end
-
-      random_person
-
     rescue SystemStackError
       puts "We have no more available options for #{person_buying.name}, restart application"
     end
@@ -63,6 +59,6 @@ class PickerRunner
 end
 
 picker = PickerRunner.new(path_to_file: './family.json')
-100.times do
+5.times do
   picker.run
 end
