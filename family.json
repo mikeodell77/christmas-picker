@@ -17,19 +17,15 @@
   },
   {
     "name": "Mom",
-    "do_not_buy_for": "Dad"
+    "do_not_buy_for": "Dad, Mom"
   },
   {
     "name": "Dad",
-    "do_not_buy_for": "Mom"
+    "do_not_buy_for": "Mom, Dad"
   },
   {
     "name": "Phillip",
-    "do_not_buy_for": "Hannah, Jeannette, Dennis, Phillip"
-  },
-  {
-    "name": "Hannah",
-    "do_not_buy_for": "Jeannette, Dennis, Phillip, Hannah"
+    "do_not_buy_for": "Mirna, Jeannette, Dennis, Phillip"
   },
   {
     "name": "Theresa",
@@ -66,5 +62,17 @@
   {
     "name": "Sean",
     "do_not_buy_for": "Kathleen, Tricia, Mike, Sean"
+  },
+  {
+    "name": "Kathleen",
+    "do_not_buy_for": "Kathleen, Brandon"
+  },
+  {
+    "name": "Brandon",
+    "do_not_buy_for": "Brandon, Kathleen"
+  },
+  {
+    "name": "Mirna",
+    "do_not_buy_for": "Mirna, Phillip"
   }
 ]

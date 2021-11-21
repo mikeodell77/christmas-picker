@@ -4,7 +4,7 @@ require './person'
 require './empty_family_file'
 
 class PickerRunner
-  def initialize(path_to_file:)
+  def initialize(path_to_file: nil)
     raise ArgumentError.new("path_to_file is required") if path_to_file == nil
 
     @path_to_file = path_to_file
